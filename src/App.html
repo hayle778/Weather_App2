@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+
+<style>
+
+#myCity:a{
+color: red;
+link
+}
+    h3{
+  text-align: center
+    }
+
+</style>
+<body>
+<h3>Weather channel</h3>
+<label for="myCity">City: </label><br>
+<!--<input type="text" id="fcity" name="fcity"  ><br>-->
+<input type = "text" id = "myCity" >
+
+<input type="submit" onClick="myFunction()"/>
+<img src="https://scottkleinberg.com/wp-content/uploads/2015/10/scott-kleinberg-apple-weather.jpg" width = 1500px length = 1500px  >
+<!--<input type="submit" value="Submit Query"  >-->
+
+
+<!--<button onclick ="myFunction() ">Submit Query</button>-->
+<!--<p id ="demo"></p>-->
+
+<script>
+       function myFunction() {
+         window.location.href="http://localhost:63342/WeatherApp/AppDetail.html?_ijt=m0n36ntusadj6i0ugrfi17mmm3";
+
+        document.getElementById("demo").innerHTML = "";
+       document.getElementById("demo").innerHTML = result;
+
+       }
+</script>
+<dr/>
+
+<form action="/action_page.php">
+    <AppDetail for="fname">First name:</AppDetail><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
+<!--<p><a href="https://openweathermap.org/">Weather Map</a></p>-->
+
+</body>
+
+</html>
+
+
